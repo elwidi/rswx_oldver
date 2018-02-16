@@ -1,0 +1,30 @@
+<?
+if($bln==1){
+$nabul="Jan";
+}elseif($bln==2){
+$nabul="Feb";
+}elseif($bln==3){
+$nabul="Mar";
+}elseif($bln==4){
+$nabul="Apr";
+}elseif($bln==5){
+$nabul="Mei";
+}elseif($bln==6){
+$nabul="Jun";
+}elseif($bln==7){
+$nabul="Jul";
+}elseif($bln==8){
+$nabul="Agt";
+}elseif($bln==9){
+$nabul="Sept";
+}elseif($bln==10){
+$nabul="Okt";
+}elseif($bln==11){
+$nabul="Nov";
+}elseif($bln==12){
+$nabul="Des";
+}else{
+$nabul="?";
+}
+echo " $nabul $thn1";
+ ?>

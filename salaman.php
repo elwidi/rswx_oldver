@@ -1,0 +1,3 @@
+<?
+include "ceke.php";
+?>

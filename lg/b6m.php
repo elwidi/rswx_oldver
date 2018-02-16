@@ -1,0 +1,12 @@
+<?
+if($as==41){
+//header("Location:../Farmasi/b_8.php?Kat=$Kat&as=$as&Thn=$Thn&Bln=$Bln");
+header("Location:../Farmasi/b9_8.php?kacang=garuda&Thn=$Thn&Bln=$Bln");
+}elseif($as==44){
+header("Location:../Farmasi/b_09.php?Kat=$Kat&as=$as&Thn=$Thn&Bln=$Bln");
+}elseif($as==3){
+header("Location:../Farmasi/z9o.php?as=$as&Thn=$Thn&Bln=$Bln");
+}else{
+header("Location:./s_d.php?Bln=$Bln&Thn=$Thn");
+}
+?>

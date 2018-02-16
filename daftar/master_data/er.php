@@ -1,0 +1,3 @@
+<?
+header("Location:../../keluar.php");
+?>

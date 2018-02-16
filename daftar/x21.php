@@ -1,0 +1,13 @@
+<?
+if($apa==2){
+header("Location:./index.php?kadal=6");
+}elseif($apa==3){
+header("Location:./ed_d.php");
+}elseif($apa==4){
+header("Location:./fito_sayangku.php");
+}elseif($apa==5){
+header("Location:./x09_8.php");
+}elseif($apa==6){
+header("Location:./xw.php");
+}
+?>
